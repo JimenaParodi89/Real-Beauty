@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Base MAC",
+        "id": 1,
+        "category": "bases",
+        "details":  "Base MAC Studio",
+        "img": "https://cdn.kicks.se/globalassets/integrationimages/773602610600.jpg?ref=1025045&hasAlpha=false&w=1280&preset=background"
+    },
+    {
+        "name": "Labial MAC",
+        "id": 2,
+        "category": "labiales",
+        "details":  "Lápiz labial mate Bronx",
+        "img": "https://cdn.kicks.se/globalassets/integrationimages/773602040575.jpg?ref=1006399&hasAlpha=false&w=1280&preset=background"
+    },
+    {
+        "name": "Labial Loreal",
+        "id": 3,
+        "category": "labiales",
+        "details":  "Lápiz labial Loreal Satin Lipstick",
+        "img": "https://www.lorealparis.se/-/media/project/loreal/brand-sites/oap/emea/nordics/products/makeup/lip-makeup/color-riche/satin/lipstick-108-brun-cuivre/packshot/oap-makeup-lips-color-riche-satin-108-brun-cuivre-packshoot.png?w=360&rev=d811695d56504206992ca54db10748a8&hash=0A7125521A3EAE839C403FB015BA8B7054F5C9EB"
+    }
+] 
