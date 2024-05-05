@@ -15,9 +15,6 @@ const NavBar = () => {
             <Nav.Link to="/category/bases" as={NavLink}>Bases</Nav.Link>
             <Nav.Link to="/category/sombras" as={NavLink}>Sombras</Nav.Link>
             <Nav.Link to="/category/labiales" as={NavLink}>Labiales</Nav.Link>
-            <Nav.Link to="/category/delineadores" as={NavLink}>Delineadores</Nav.Link>
-            <Nav.Link to="/category/mascaras" as={NavLink}>Máscaras</Nav.Link>
-            <Nav.Link to="/category/otros" as={NavLink}>Otros</Nav.Link>
             </Nav>
           <CartWidget />
         </Container>

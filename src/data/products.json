@@ -4,20 +4,44 @@
         "id": 1,
         "category": "bases",
         "details":  "Base MAC Studio",
+        "stock":  10,
+        "price":  250,
         "img": "https://cdn.kicks.se/globalassets/integrationimages/773602610600.jpg?ref=1025045&hasAlpha=false&w=1280&preset=background"
     },
     {
-        "name": "Labial MAC",
+        "name": "Labial MAC Bronx",
         "id": 2,
         "category": "labiales",
         "details":  "Lápiz labial mate Bronx",
+        "stock":  10,
+        "price":  100,
         "img": "https://cdn.kicks.se/globalassets/integrationimages/773602040575.jpg?ref=1006399&hasAlpha=false&w=1280&preset=background"
     },
     {
-        "name": "Labial Loreal",
+        "name": "Labial MAC Lustreglass",
         "id": 3,
         "category": "labiales",
-        "details":  "Lápiz labial Loreal Satin Lipstick",
-        "img": "https://www.lorealparis.se/-/media/project/loreal/brand-sites/oap/emea/nordics/products/makeup/lip-makeup/color-riche/satin/lipstick-108-brun-cuivre/packshot/oap-makeup-lips-color-riche-satin-108-brun-cuivre-packshoot.png?w=360&rev=d811695d56504206992ca54db10748a8&hash=0A7125521A3EAE839C403FB015BA8B7054F5C9EB"
+        "details":  "Lustreglass Lipstick Thanks, It's M·A·C!",
+        "stock":  10,
+        "price":  200,
+        "img": "https://www.kicks.fi/globalassets/integrationimages/773602609789.jpg?ref=1055684&hasAlpha=false&w=640&preset=background"
+    },
+    {
+        "name": "Base MAC Studio Radiance",
+        "id": 4,
+        "category": "bases",
+        "details":  "Studio Radiance Serum Powered Foundation NC 10",
+        "stock":  10,
+        "price":  150,
+        "img": "https://www.kicks.fi/globalassets/integrationimages/773602656592.jpg?ref=2276175&hasAlpha=false&w=640&preset=background"
+    },
+    {
+        "name": "Sombras MAC",
+        "id": 5,
+        "category": "sombras",
+        "details":  "Connect In Colour Eye Shadow Palette Unfiltered Nudes",
+        "stock":  10,
+        "price":  120,
+        "img": "https://www.kicks.fi/globalassets/integrationimages/773602648733.jpg?ref=2002815&hasAlpha=false&w=640&preset=background"
     }
 ] 

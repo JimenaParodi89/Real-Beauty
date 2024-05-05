@@ -1,9 +1,8 @@
-import { useEffect, useState } from 'react';
-
-import Container from 'react-bootstrap/Container'; 
-import { useParams } from 'react-router-dom';
-
 import data from '../data/products.json'
+
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { ItemDetail } from './ItemDetail';
 
 const ItemDetailContainer = () => {
 
@@ -24,10 +23,7 @@ const ItemDetailContainer = () => {
     if(!product) return <div>loading</div>
 
     return (
-    <Container className="mt-4">
-        <h1>{product.name}</h1>
-        <img src={product.img} alt="s" />
-    </Container>
+        <ItemDetail product={product} />
     )
 }
 
