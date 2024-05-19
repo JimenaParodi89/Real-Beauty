@@ -11,7 +11,7 @@ export const Cart = () => {
     }
 
     const [values, setValues] = useState(intialValues)
-    const { items } = useContext(CartContext);
+    const { items,clear, removeItem } = useContext(CartContext);
 
     const total = () => items.reduce((acc, item) => acc + item.quantity * item.price, 0);
 
@@ -27,6 +27,9 @@ export const Cart = () => {
     const handleSubmit = (ev) => {
        
     }
+
+    const handleClear = () => clear()
+    const handleRemove = (id) => removeItem(id)
     
     return (<Container className="mt-4"><h1>Productos:</h1>{items.map(i => {
         return (
@@ -34,10 +37,12 @@ export const Cart = () => {
             <li>Prod: {i.name}</li>
             <li>Cant: {i.quantity}</li>
             <li>$ {i.price}</li>
+            <li onClick={() => handleRemove(i.id)}>X</li>
         </ul>)
     })}
     <div>
         Total: {total()}
+        <button onClick={handleClear}>Vaciar</button>
     </div>
     <form>
         <label>Nombre</label>
